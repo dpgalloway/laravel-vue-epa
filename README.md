@@ -30,7 +30,7 @@ This repository uses Laravel, Vue-CLI, and the OneEPA template alongside the US 
 10. Run `php artisan migrate` to migrate the example items table
 11. Run `php artisan db:seed` to seed example items
 12. Create a .env file in the client directory
-13. Add a VUE_APP_API_URL variable and set to your local Laravel server URL (e.g., http://laravel.test, http://localhost:8000)
+13. Add a VUE_APP_API_URL variable and set to your local Laravel server API URL (e.g., http://laravel.test/api, http://localhost:8000/api)
 14. Run `npm start` to start the front-end development server
 
 ## To build for production:
