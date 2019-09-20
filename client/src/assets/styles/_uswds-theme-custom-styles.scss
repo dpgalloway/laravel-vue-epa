@@ -1,0 +1,10 @@
+// USWDS custom style overrides
+
+// EPA Standalone template overrides
+footer .region-footer .row {
+  margin: 0 -1em; // required so smaller screens don't have a blank area to the right
+}
+
+html {
+  font-size: 106.25%;
+}

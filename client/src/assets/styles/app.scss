@@ -1,1 +1,34 @@
-// Add custom styles here
+// -------------------------------------
+// Import individual theme settings
+
+@import 'uswds-theme-spacing';
+@import 'uswds-theme-general';
+@import 'uswds-theme-utilities';
+@import 'uswds-theme-typography';
+@import 'uswds-theme-color';
+
+// -------------------------------------
+// Import individual USWDS modules...
+
+// @import 'uswds-fonts';
+// @import 'uswds-layout-grid';
+// @import 'uswds-components';
+// @import 'uswds-utilities';
+
+// -------------------------------------
+// ...or import all USWDS modules
+
+$theme-image-path: '~/uswds/dist/img';
+$theme-font-path: '~/uswds/dist/fonts';
+
+@import 'uswds';
+
+// -------------------------------------
+// Import theme custom styles
+
+@import './uswds-theme-custom-styles';
+
+// -------------------------------------
+// Import font-awesome icons
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
